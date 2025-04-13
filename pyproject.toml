@@ -1,0 +1,20 @@
+[project]
+name = "crimson"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Juliano Soares da Silva",email = "bytebytebug@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard] (>=0.115.12,<0.116.0)",
+    "ruff (>=0.11.5,<0.12.0)",
+    "pyre-check (>=0.9.23,<0.10.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
